@@ -1,0 +1,25 @@
+<meta charset="UTF-8">
+<script>
+	function pulalinha(){
+		document.write("<br>");
+		document.write("<br>");
+	}
+	function mostra(frase){
+		document.write(frase);
+		pulalinha();
+	}
+
+	//var contador = 1;
+	var numero = parseInt(prompt("Informe um numero: "));
+	mostra("A tabuada do numero " + numero + " é:");
+
+	//while(contador <= 10){
+	//mostra(numero + " vezes " + contador + " é: " + (numero * contador));
+	//contador ++;
+//}
+//mostra("FIM");
+	for(let i = 1; i <=10; i++){
+		mostra(numero + " vezes " + i + " é: " + (numero * i));
+	}
+
+</script>
